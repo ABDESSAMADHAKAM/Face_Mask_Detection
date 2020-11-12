@@ -5,8 +5,11 @@ To build this model, i m using the dataset for face mask provided by Prajna Bhan
 It contains 1376 images of people's faces : 686 without mask and 690 with mask.
 
 Before you start : be sure that you are already installed the latest versions of opencv,tensorflow, keras and scikit.
+
 Opencv : https://anaconda.org/conda-forge/opencv
+
 Tensorflow and keras : https://medium.com/@margaretmz/anaconda-jupyter-notebook-tensorflow-and-keras-b91f381405f8
+
 Scikit : https://anaconda.org/anaconda/scikit-learn
 ## Preprocessing
 In the first step, i've done some processing to the data by transform all the images to gray, resize them to a shape of (100,100) and normalize them.
